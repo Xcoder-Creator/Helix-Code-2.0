@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="author" content="Michael Alfred">
+	<meta name="description" content="Helix-Code is an online interactive programming web repository which is the best in the world">
+	<meta name="keywords" content="Helix-Code is an online interactive programming web repository which is the best in the world">
+    <title>dance | Helix-Code search</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/Helix-code-styles.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body onload="searchFunc()">
+    <header>
+	  <nav>
+	    <div class="top-nav-bar">
+		  <a id="top-nav-logo" href="index.html"><i class="fa fa-code"></i>Helix</a>
+		  <span id="menu-icon"><i class="fa fa-navicon" id="icon-size"></i></span>
+		</div>
+		<div style="position: relative; top: 109px; text-align: center;">
+		  <a href="#" id="act-lnk"><i class="fa fa-file-pdf-o"></i> PDF RESULTS</a>
+		  <a href="#" id="lnk-top-pad"><i class="fa fa-newspaper-o"></i> BLOGS</a>
+		  <a href="#" id="lnk-top-pad"><i class="fa fa-file-video-o"></i> VIDEOS</a>
+		</div>
+		<div id="nav-side-lnk">
+		  <a id="top-nav-lnk" href="#" style="padding-top: 16px;"><i class="fa fa-home"></i> <span id="top-lnk-txt">Home</span></a>
+		  <hr>
+		  <a id="top-nav-lnk" href="#"><i class="fa fa-sign-in"></i> <span id="top-lnk-txt">Sign In</span></a>
+		  <hr>
+		  <a id="top-nav-lnk" href="#" style="padding-bottom: 16px;"><i class="fa fa-briefcase"></i> <span id="top-lnk-txt">Services</span></a>
+		</div>
+	  </nav>
+    </header>
+	<main>
+	  <article>
+		<section class="main-cont-body" style="padding-top: 140px; font-style: italic;">
+		  <div class="container">
+		    <div class="row">
+			  <div class="col-md-12">
+			    <form method="GET" action="">
+			      <div class="search-input-container">
+				    <input id="search-input" type="text" placeholder="Search Helix..." name="usrnm">
+				    <button type="button" id="btn-dgn"><i onclick="searchSys()" id="search-btn" class="fa fa-search icon"></i></button>
+				  </div>
+				</form>				
+			  </div>
+			</div>
+		  </div>
+		  <p style="font-size: 1.2rem; text-align: center; margin-bottom: 0px;"><small>We are the best online repository in the world</small></p>
+		  <p style="font-size: 1.2rem; text-align: center;"><small><b>#NumberOneBest</small></b></p>
+		  <div class="container reco-block">
+			<div class="row ">
+			  <div class="col-12">
+				<p id="res-pad"><small><b><span id="search-ind">0 results</span> for dance</small></b></p>
+				<hr>
+			  </div>
+			  <div class="col-md-12">
+				<div class="d-flex">
+				  <div>
+					<p>No result found for <span style="color: green;">dance</span></p>
+					<ul>
+					  <li>Make sure that you spelled all the words correctly.</li>
+					  <li>Try using different keywords.</li>
+					  <li>Try using general keywords.</li>
+					  <li>Try fewer keywords.</li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+		<div id="pg-num">Page <span id="num-hg">1</span> of <span id="num-hg">1</span> page</div>
+	  </article>
+	</main>
+	<footer style="margin-top: auto;">
+	  <div class="site-foot" style="font-style: italic;">
+	    <div class="foot-lnk">
+		  <a href="#" id="foot-lnk-star">ABOUT</a>
+		  <a href="#" id="foot-lnk-act">HELP</a>
+		  <a href="#" id="foot-lnk-act">PRESS</a>
+		  <a href="#" id="foot-lnk-act">API</a>
+		  <a href="#" id="foot-lnk-act">JOBS</a>
+		  <a href="#" id="foot-lnk-act">PRIVACY</a>
+		  <a href="#" id="foot-lnk-act">TERMS</a>
+		  <a href="#" id="foot-lnk-act">LOCATION</a>
+		  <a href="#" id="foot-lnk-act">LANGUAGE</a>
+		</div>
+		<div class="social-med-cont">
+		  <a id="ig" href="#"><img id="ig-ico" src="images/IG.png"></a>
+		  <a id="fb" href="#"><img id="fb-ico" src="images/FB.png"></a>
+		  <a id="yt" href="#"><img id="yt-ico" src="images/YT.png"></a>
+		</div>
+		<div class="foot-cpyright">
+		  Copyright © <span id="year"></span> Helix-Code, All Rights Reserved.
+		</div>
+	  </div>
+	</footer>
+	
+	<script>
+	  function searchFunc(){
+	    document.getElementById("search-input").value = "dance";	
+	  }
+	</script>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
